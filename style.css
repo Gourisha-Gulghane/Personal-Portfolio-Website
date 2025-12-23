@@ -1,0 +1,98 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a1a0a7; /* light gray background for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 850px;
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Name */
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #2c3e50; /* dark blue */
+}
+
+/* Role / Subtitle */
+.role {
+    color: #555555;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Section Headings */
+h2 {
+    border-bottom: 2px solid #3498db; /* subtle blue underline */
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-size: 20px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333333;
+    margin: 8px 0;
+}
+
+/* Skills List */
+ul {
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+ul li {
+    margin-bottom: 5px;
+    color: #34495e;
+}
+
+/* Links styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p, ul li {
+        font-size: 14px;
+    }
+}
